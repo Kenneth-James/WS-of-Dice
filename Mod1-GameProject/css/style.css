@@ -1,0 +1,124 @@
+body {
+    background-color: firebrick;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+h4 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*
+see HTML Comment
+#larry{
+    display: inline-flex;
+    margin-bottom: 2%;
+    padding-left: 40%; 
+}
+*/
+form {
+    text-align: center;
+
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: silver;
+}
+
+input[type='submit'] {
+        font-family: 'Press Start 2P', cursive;
+        font-weight: bold;
+        color: #FFFFFF;
+        font-size: 15px;
+        text-shadow: 1px 1px 0px #ACB5A7;
+        box-shadow: 3px 3px 1px #000000;
+        border-radius: 5px;
+        border: 2px solid #000000;
+        background: #042B85;
+}
+
+input[type='submit']:hover {
+    color: #FFFFFF;
+    background: #175906;
+}
+
+.dice1 {
+    display: inline-flex;
+    margin: auto;
+    padding-left: 40%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    
+    
+}
+
+.dice2 {
+    display: inline-flex;
+    margin: auto;
+}
+
+.button {
+    display: grid;
+    margin: 5% 25% 5%;
+}
+
+.diceroll {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-shadow: 1px 1px 0px #ACB5A7;
+    box-shadow: 3px 3px 1px #000000;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    background: #042B85;
+  }
+.diceroll:hover {
+    color: #FFFFFF;
+    background: #175906;
+  }
+
+  .diceroll2{
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-shadow: 1px 1px 0px #ACB5A7;
+    box-shadow: 3px 3px 1px #000000;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    background: #042B85;
+  }
+
+  .diceroll2:hover {
+    color: #FFFFFF;
+    background: #175906;
+  }
+
+#newGameBtn {
+    display: grid;
+    margin: 5% 40% 5%;
+}
+

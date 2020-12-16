@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Series of Dice</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="parent"> 
+    <h1>Welcome To The World Series of Dice!</h1>
+    
+    <div id="story">
+    <h4>Help your brother Ashy Larry win back his rent money or else he's moving in with you!</h4>
+     <!-- not as nice as i imagined   <img id="larry" src="./images/ashyLarry.gif" alt="Ashy Larry"> -->
+    </div>
+
+
+    <div class="newGame">
+        <button id="newGameBtn" type="newGameBtn" class="diceroll" onClick="newCraps()"> 
+            New Game
+        </button>
+    </div>
+
+    <div class="dice1">
+       <img id="image1" src="./images/dice3.png" alt="dice image">  
+    </div>
+    
+    <div class="dice2">
+        <img id="image2" src="./images/dice3.png" alt="dice image">
+    </div>
+
+    <div id="bets">
+        <p>Money Total: $250</p>
+    </div>
+
+    <div class="form">
+        <form action="">
+            <input type="text" id="placeBetHere" value="0" placeholder="How Much You Putting Up?">
+           <input type="submit" value="Bet" onClick="startGame()">
+           
+        </form>
+        
+    </div>
+
+    <div class="button">
+        <button type="myButton" class="diceroll" onclick= "firstRoll()">
+            Roll
+        </button>
+        <button type="myButton" class="diceroll2" onclick= "pointRoll()">
+            Roll Again
+        </button>
+    </div>
+    
+    </div>
+
+    <script src="./js/diceapp.js"></script>
+
+</body>
+</html>
